@@ -1,25 +1,4 @@
 
-This is free and unencumbered software released into the public domain.
+Czy Pan wie ile kosztuje obecnie taki zwykły bochenek chleba?
 
-Anyone is free to copy, modify, publish, use, compile, sell, or
-distribute this software, either in source code form or as a compiled
-binary, for any purpose, commercial or non-commercial, and by any
-means.
-
-In jurisdictions that recognize copyright laws, the author or authors
-of this software dedicate any and all copyright interest in the
-software to the public domain. We make this dedication for the benefit
-of the public at large and to the detriment of our heirs and
-successors. We intend this dedication to be an overt act of
-relinquishment in perpetuity of all present and future rights to this
-software under copyright law.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
-OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
-ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-OTHER DEALINGS IN THE SOFTWARE.
-
-For more information, please refer to <http://unlicense.org>
+Staram się od czasu do czasu robić zakupy, właśnie po to, żeby w sklepie spożywczym zobaczyć, jakie są ceny, porównuję je też do cen w skupie. Np. Bardzo ważne jest dzisiaj takie zjawisko.. Pani mnie pyta o ceny w sklepie czy o ceny rosnące, natomiast po drugiej stronie są rolnicy. Rolnicy cieszą się z tego, że z wyjątkiem cen na trzodę chlewną akurat rosną ceny pszenicy, kukurydzy, rzepaku. Nawet mleko także rośnie. W związku z tym jest to.. miecz obosieczny, można tak powiedzieć. Gdybyśmy mieli malejące ceny, to jednocześnie dla rolników by oznaczało to niezwykle trudny czas, a w ten sposób mamy przynajmniej tutaj po stronie rolnictwa - oczywiście mówię o płodach rolnych, nie mówię teraz o trzodzie chlewnej, bo tam jest potężny problem związany z ASF - mamy sytuację inną. Dlatego chcemy zdecydowanie poprawić losy emerytów poprzez wzrost ich dochodów netto, bo emerytura bez podatku do 2500 zł oznacza, że w kieszeni emeryta może miesięcznie zostać.. nawet 200 zł w zależności od poziomu emerytury i to jest rzecz, o którą ja z kolei pytałem emerytów bardzo często na moich spotkaniach w domach seniora, bardzo licznych spotkaniach z emerytami, czego oni oczekują i to było bardzo często pojawiające się hasło.
