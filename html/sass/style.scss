@@ -1,3 +1,133 @@
 body{
-    color: black;
+ margin: 0;
+ padding: 0;   
+ font-family: 'Times New Roman', Times, serif;
 }
+
+#banner{
+    margin: 50px 0;
+    height: 24px;
+    background-color: gray;
+    display: flex;
+    
+    
+
+    i{font-size: 24px; margin-right: 10px;}
+
+    
+    .dropdown{display: none;}
+    .nav{display: none;}
+    
+input[type=text]{
+    margin: 0;
+    border: none;
+    font-size: 20px;
+    height: 24px;
+    width: 300px;
+    border-radius: 5px;
+    outline: none;
+}
+ul{
+    padding: 0;
+    font-size: 20px;
+    display: inline-flex;
+    margin: 0;
+}
+
+li{
+    list-style-type: none;
+  margin: 0 30px;
+    
+}
+}
+#login{
+    display: flex;
+    right: 0;
+    position: absolute;}
+#slidebar{
+    width: 252px;
+    height: 890px;
+    padding: 50px 50px;
+    padding-right: 0;
+    padding-top: 0;
+
+    float: left;
+    ul{
+        padding: 0;
+        font-size: 20px;
+    }
+
+    li{
+        list-style-type: none;
+        margin: 20px;
+        
+    }
+    
+}
+.container{
+    width: 520px;
+    height: 380px;
+    
+    margin: 10px ;
+    
+    float: left;
+    .boxHorizontal{
+        width: 100%;
+        height: 182.5px;
+        background-color: #BCE7F0;
+        border-radius: 20px;
+        align-content: center;
+
+    }
+    #up{
+        margin-bottom: 15px;
+    }
+    #bottom{
+        margin-top: 15px;
+    }
+}
+.containerV{
+    width: 520px;
+    height: 380px;
+    margin: 10px;
+    float: left;
+    #left{
+        width: 250px;
+        height: 380px;
+        background-color: #BCE7F0;
+        border-radius: 20px;
+        align-content: center;
+        margin-right: 10px;
+        float: left;
+    
+    }
+    #right{
+        width: 250px;
+        height: 380px;
+        background-color: #BCE7F0;
+        border-radius: 20px;
+        align-content: center;
+        margin-left: 10px;
+        float: left;
+    
+    }
+}
+#help{
+    position: absolute;
+    bottom: 20px;
+    h2{
+        i{
+         margin-right: 10px;
+         } 
+     }
+}
+@media only screen and (max-width: 901px) {
+#login{
+    #listaBanner{
+        display: none;
+    }
+    .nav{display: block;}
+    }
+    
+}
+

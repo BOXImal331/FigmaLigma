@@ -1,0 +1,40 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "9dd9e835aebe1060ba7190ad2b2ed951",
+      "css": "search",
+      "code": 59392,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "e0d15ef5945000f5f264acc35494002f",
+      "css": "basket",
+      "code": 59393,
+      "src": "typicons"
+    },
+    {
+      "uid": "e2a0b3edf53a477f66d077cb907e2ab5",
+      "css": "guest",
+      "code": 59394,
+      "src": "zocial"
+    },
+    {
+      "uid": "b52aa05c9c55c41f1768cdaa940401a8",
+      "css": "comment-alt",
+      "code": 59395,
+      "src": "websymbols"
+    },
+    {
+      "uid": "acae2d2db2ebe97429c6eddc2f7b0cd2",
+      "css": "heart-empty",
+      "code": 59396,
+      "src": "iconic"
+    }
+  ]
+}
