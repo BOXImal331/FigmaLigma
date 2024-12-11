@@ -7,8 +7,11 @@ body {
 #banner {
   margin: 50px 0;
   height: 24px;
-  background-color: gray;
   display: flex;
+}
+#banner td {
+  width: 15vh;
+  padding: 0 20px;
 }
 #banner i {
   font-size: 24px;
@@ -61,6 +64,11 @@ body {
 #slidebar li {
   list-style-type: none;
   margin: 20px;
+}
+#slidebar #burg {
+  display: none;
+  float: right;
+  margin: 0 10px;
 }
 
 .container {
@@ -116,11 +124,45 @@ body {
   margin-right: 10px;
 }
 
-@media only screen and (max-width: 901px) {
-  #login #listaBanner {
-    display: none;
-  }
+@media only screen and (max-width: 1201px) {
   #login .nav {
     display: block;
+  }
+  #slidebar {
+    left: -230px;
+    position: absolute;
+  }
+  #slidebar #burg {
+    display: block;
+  }
+  #banner {
+    padding-left: 70px;
+  }
+  #banner #listaBanner {
+    display: none;
+  }
+  #banner input[type=text] {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1101px) {
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+  .containerV {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .containerV #left {
+    width: 47.5%;
+    margin-right: 2.5%;
+  }
+  .containerV #right {
+    width: 47.5%;
+    margin-left: 2.5%;
+  }
+  #cont {
+    padding: 20px;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -11,8 +11,6 @@
         nav {
 	margin: 0 auto;
 	max-width: 800px;
-	
-	box-shadow:0 3px 15px rgba(0,0,0,.15);
 }
 
 nav::after {
@@ -92,6 +90,9 @@ nav ul li ul li a:focus {
     </div>-->
     <div id="slidebar">
         <img src="./src/logo.png" width="94px" alt="" srcset="">
+        <svg id="burg" width="20px" height="20px" viewBox="0 0 24 24" fill="none">
+            <title>Three lines</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23 4H1v3h22V4Zm0 7H1v3h22v-3ZM1 18h22v3H1v-3Z" fill="currentColor">
+            </path></svg>
         <h1>Explore</h1>
         <ul> 
         <li>
@@ -112,33 +113,43 @@ nav ul li ul li a:focus {
         <i class="icon-search"></i>
         <input type="text" name="" placeholder="Search store"  id="">
        
-           
+        <table id="listaBanner">
+            <tbody>
+            <tr>
+            <td><u>products</u></td>
+            <td>story</td>
+            <td>manufacturing</td>
+            <td>packaging</td>
+            </tr>
+            </tbody>
+            </table>
         <div id="login">
             <nav class="nav">
                 <ul>
                     
-                    <li class="drop"><a href="#">Oferta</a>
+                    <li class="drop"><a href="#"><u>products</u></a>
                         <ul class="dropdown">
-                            <li><a href="#">Oferta 01</a></li>
-                            <li><a href="#">Oferta 02</a></li>
-                            <li><a href="#">Oferta 03</a></li>
+                            <li><a href="#">story</a></li>
+                            <li><a href="#">manufacturing</a></li>
+                            <li><a href="#">packaging</a></li>
                         </ul>
                     </li>
                   
                 </ul>
             </nav>
 
-
-            <ul id="listaBanner">
+            
+            <!--ul id="listaBanner">
             <li><u>products</u></li>
             <li>story</li>
             <li>manufacturing</li>
             <li>packaging </li>
-        </ul>
+        </ul-->
             <i class="icon-basket"></i><i class="icon-guest"></i></div>
         
 
     </div>
+<div id="cont">
     <div class="container">
         <div class="boxHorizontal" id="up">skibidi skibidi hawk tuah hawk</div>
         <div class="boxHorizontal" id="bottom">skibidi skibidi hawk tuah hawk</div>
@@ -158,6 +169,7 @@ nav ul li ul li a:focus {
         <div class="boxHorizontal" id="up">skibidi skibidi hawk tuah hawk</div>
         <div class="boxHorizontal" id="bottom">skibidi skibidi hawk tuah hawk</div>
     </div>
+</div>
 
    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
