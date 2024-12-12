@@ -29,6 +29,7 @@ nav ul {
 nav ul li {
 	float: left;
 	position: relative;
+    background-color: white;
 }
 
 nav ul li a {
@@ -43,11 +44,11 @@ nav ul li a {
 
 nav ul li a:hover,
 nav ul li a:focus {
-	background: rgba(0, 0, 0, .15);
+	background: rgba(255, 255, 255, 0.87);
 }
 
 nav ul li a:focus {
-	color: white;
+	color: rgb(0, 0, 0);
 }
 
 nav ul li a:not(:only-child)::after {
@@ -61,25 +62,27 @@ nav ul li ul li {
 
 nav ul li ul li a {
 	background: transparent;
-	color: #555;
+	color: #000000;
 	border-bottom: 1px solid #DDE0E7;
 }
 
 nav ul li ul li a:hover,
 nav ul li ul li a:focus {
-	background: #eee;
+	background: #ffffff;
 	color: #111;
 }
 
 .dropdown {
 	display: none;
 	position: absolute;
+    background-color: white;
 	
 	box-shadow: 0 4px 10px rgba(10, 20, 30, .4);
 }
     </style>
 </head>
 <body >
+    <div id="black"></div>
     <!--div id="banner">
         <svg id="burg"  width="20px" height="20px" viewBox="0 0 24 24" fill="none">
             <title>Three lines</title><path  fill-rule="evenodd" clip-rule="evenodd" d="M23 4H1v3h22V4Zm0 7H1v3h22v-3ZM1 18h22v3H1v-3Z" fill="currentColor">
@@ -90,7 +93,7 @@ nav ul li ul li a:focus {
     </div>-->
     <div id="slidebar">
         <img src="./src/logo.png" width="94px" alt="" srcset="">
-        <svg id="burg" width="20px" height="20px" viewBox="0 0 24 24" fill="none">
+        <svg class="burg" id="burg1" width="20px" height="20px" viewBox="0 0 24 24" fill="none">
             <title>Three lines</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23 4H1v3h22V4Zm0 7H1v3h22v-3ZM1 18h22v3H1v-3Z" fill="currentColor">
             </path></svg>
         <h1>Explore</h1>
@@ -110,6 +113,9 @@ nav ul li ul li a:focus {
         </div>
     </div>
     <div id="banner">
+        <svg class="burg"id=burg width="20px" height="20px" viewBox="0 0 24 24" fill="none">
+            <title>Three lines</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23 4H1v3h22V4Zm0 7H1v3h22v-3ZM1 18h22v3H1v-3Z" fill="currentColor">
+            </path></svg>
         <i class="icon-search"></i>
         <input type="text" name="" placeholder="Search store"  id="">
        
@@ -151,23 +157,28 @@ nav ul li ul li a:focus {
     </div>
 <div id="cont">
     <div class="container">
-        <div class="boxHorizontal" id="up">skibidi skibidi hawk tuah hawk</div>
-        <div class="boxHorizontal" id="bottom">skibidi skibidi hawk tuah hawk</div>
+        <div class="boxHorizontal off" id="up"><center><h1>GET UP TO 50% OFF</h1></center></div>
+        <div class="boxHorizontal summer" id="bottom"></div>
     </div>
     <div class="containerV">
-        <div id="left">skibidi skibidi hawk tuah hawk</div>
-        <div id="right">skibidi skibidi hawk tuah hawk</div>
+        <div class="left" id="v1"> <i class="icon-heart-empty"></i></div>
+        <div class="right" id="v2"><i class="icon-heart-empty"></i></div>
     </div>
     
    
     
     <div class="containerV">
-        <div id="left">skibidi skibidi hawk tuah hawk</div>
-        <div id="right">skibidi skibidi hawk tuah hawk</div>
+        <div class="left"><i class="icon-heart-empty"></i></div>
+        <div class="right"><i class="icon-heart-empty"></i></div>
     </div>
 <div class="container">
-        <div class="boxHorizontal" id="up">skibidi skibidi hawk tuah hawk</div>
-        <div class="boxHorizontal" id="bottom">skibidi skibidi hawk tuah hawk</div>
+        <div class="boxHorizontal trending" id="up">
+            <h2>Trending & Hot</h2>
+            <h3>A collection of most trending items.</h3>
+        </div>
+        <div class="boxHorizontal buyFirst" id="bottom">
+            <h2>Buy it for the first time</h2>
+            <h3>New in store. Try it before anyone else.</h3></div>
     </div>
 </div>
 
@@ -176,6 +187,7 @@ nav ul li ul li a:focus {
     
     <script>
     let bul = false
+    let bulBul = false
     $(".drop")
         .click(function() {
             if(bul==false){
@@ -186,6 +198,29 @@ nav ul li ul li a:focus {
                 bul = false;
             }
        
+      });
+      $("#burg").click(function(){
+        console.log("klk")
+        $("#slidebar").animate({left:"0"},"slow")
+        document.getElementById("slidebar").style.backgroundColor = "white";
+        document.getElementById("black").style.display = "block";
+        document.body.style.overflow ="hidden";
+        
+      });
+      $("#burg1").click(function(){
+        console.log("klk")
+        $("#slidebar").animate({left:"-300px"},"slow")
+        document.getElementById("slidebar").style.backgroundColor = "none";
+        document.getElementById("black").style.display = "none";
+        document.body.style.overflow ="auto";
+      });
+      $("#black").click(function(){
+        console.log("klk")
+        $("#slidebar").animate({left:"-300px"},"slow")
+        document.getElementById("slidebar").style.backgroundColor = "none";
+        document.getElementById("black").style.display = "none";
+        document.body.style.overflow ="auto";
+
       });
       </script>
 </body>

@@ -4,12 +4,23 @@ body {
   font-family: "Times New Roman", Times, serif;
 }
 
+#black {
+  width: 100%;
+  height: 400vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  z-index: 1;
+  display: none;
+}
+
 #banner {
-  margin: 50px 0;
+  padding: 50px 0;
   height: 24px;
   display: flex;
 }
 #banner td {
+  font-size: 20px;
+  font-weight: 500;
   width: 15vh;
   padding: 0 20px;
 }
@@ -51,10 +62,11 @@ body {
 
 #slidebar {
   width: 252px;
-  height: 890px;
+  height: 100vh;
+  z-index: 2;
   padding: 50px 50px;
   padding-right: 0;
-  padding-top: 0;
+  padding-top: 50px;
   float: left;
 }
 #slidebar ul {
@@ -65,7 +77,8 @@ body {
   list-style-type: none;
   margin: 20px;
 }
-#slidebar #burg {
+
+.burg {
   display: none;
   float: right;
   margin: 0 10px;
@@ -77,6 +90,12 @@ body {
   margin: 10px;
   float: left;
 }
+.container h2 {
+  margin-left: 20px;
+}
+.container h3 {
+  margin-left: 20px;
+}
 .container .boxHorizontal {
   width: 100%;
   height: 182.5px;
@@ -84,10 +103,51 @@ body {
   border-radius: 20px;
   align-content: center;
 }
+.container .off {
+  background-image: url(../src/W1.png);
+  background-size: auto 100%;
+  background-position: center;
+}
+.container .summer {
+  background-image: url(../src/W2.png);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container .trending {
+  background-image: url(../src/W3.png);
+  background-size: auto;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: #F4DE4D;
+}
+.container .buyFirst {
+  background-image: url(../src/W4.png);
+  background-size: auto;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: #E9E5E2;
+}
 .container #up {
   margin-bottom: 15px;
 }
 .container #bottom {
+  margin-top: 15px;
+}
+.container .boxHorizontal1 {
+  width: 100%;
+  height: 182.5px;
+  background-color: #BCE7F0;
+  border-radius: 20px;
+  align-content: center;
+  background-image: url(../src/W1.png);
+  background-size: auto 100%;
+  background-position: center;
+}
+.container .boxHorizontal1 #up {
+  margin-bottom: 15px;
+}
+.container .boxHorizontal1 #bottom {
   margin-top: 15px;
 }
 
@@ -97,46 +157,65 @@ body {
   margin: 10px;
   float: left;
 }
-.containerV #left {
+.containerV .left {
   width: 250px;
   height: 380px;
   background-color: #BCE7F0;
   border-radius: 20px;
-  align-content: center;
   margin-right: 10px;
   float: left;
 }
-.containerV #right {
+.containerV .right {
   width: 250px;
   height: 380px;
   background-color: #BCE7F0;
   border-radius: 20px;
-  align-content: center;
   margin-left: 10px;
   float: left;
 }
+.containerV i {
+  float: right;
+  width: 40px;
+  height: 40px;
+  margin: 20px;
+  font-size: 20px;
+  border-radius: 100px;
+  background: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.containerV #v1 {
+  background-image: url(../src/image2.png);
+  background-size: auto 100%;
+  background-position: center;
+}
+.containerV #v2 {
+  background-image: url(../src/image1.png);
+  background-size: auto 100%;
+  background-position: center;
+}
 
 #help {
-  position: absolute;
-  bottom: 20px;
+  margin-top: 35vh;
 }
 #help h2 i {
   margin-right: 10px;
 }
 
 @media only screen and (max-width: 1201px) {
+  .burg {
+    display: block;
+  }
   #login .nav {
     display: block;
   }
   #slidebar {
-    left: -230px;
+    left: -300px;
     position: absolute;
   }
-  #slidebar #burg {
-    display: block;
-  }
   #banner {
-    padding-left: 70px;
+    padding-left: 10px;
   }
   #banner #listaBanner {
     display: none;
@@ -149,18 +228,21 @@ body {
   .container {
     width: 100%;
     margin: 0;
+    max-width: 640px;
   }
   .containerV {
     width: 100%;
     margin: 10px 0;
   }
-  .containerV #left {
+  .containerV .left {
     width: 47.5%;
     margin-right: 2.5%;
+    max-width: 300px;
   }
-  .containerV #right {
+  .containerV .right {
     width: 47.5%;
     margin-left: 2.5%;
+    max-width: 300px;
   }
   #cont {
     padding: 20px;
