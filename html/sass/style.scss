@@ -1,7 +1,8 @@
+@import url(../src/sofia-pro-webfont/style.css);
 body{
  margin: 0;
  padding: 0;   
- font-family: 'Times New Roman', Times, serif;
+ font-family:'Sofia Pro Regular';
  
 }
 #black{
@@ -20,8 +21,8 @@ body{
     td{
         font-size: 20px;
         font-weight: 500;
-        width: 15vh;
-        padding: 0 20px;
+        
+        padding: 0 30px;
     }
     
 
@@ -83,6 +84,12 @@ li{
         float: right;
         margin: 0 10px;
     }
+    #cont{
+        display: grid
+        ;
+            place-content: center;
+    }
+    
 .container{
     width: 520px;
     height: 380px;
@@ -125,6 +132,10 @@ li{
     background-position: right;
     background-repeat: no-repeat;
     background-color: #F4DE4D;
+
+    h2{
+        color: #001AA2;
+    }
     }
     .buyFirst{
         background-image: url(../src/W4.png);
@@ -132,6 +143,10 @@ li{
     background-position: right;
     background-repeat: no-repeat;
     background-color: #E9E5E2;
+
+        h2{
+            color: #FD2E24;
+        }
     }
     #up{
         margin-bottom: 15px;
@@ -210,6 +225,16 @@ li{
         background-size: auto 100%;
         background-position: center;
     }
+    #v3{
+        background-image: url(../src/image3.png);
+        background-size: auto 100%;
+        background-position: center;
+    }
+    #v4{
+        background-image: url(../src/image4.png);
+        background-size: auto 100%;
+        background-position: center;
+    }
 }
 #help{
     margin-top: 35vh;
@@ -269,8 +294,30 @@ li{
     }
     #cont{
         padding: 20px;
+       
+    
+}
+
+
+
+}
+@media only screen and (min-width: 1202px) and (max-width: 1402px) {
+    body{
+        //background-color: #F4DE4D;
     }
-
-
+    .container{
+        width: 38vw;
+    }
+    .containerV{width: auto;
+    
+        .left{    width: 15vw;}
+        .right{    width: 15vw;}
+    
+    }
+    #banner{
+        input[type=text]{
+            width: 20%;
+        }
+    }
 }
 

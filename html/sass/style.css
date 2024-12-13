@@ -1,7 +1,8 @@
+@import url(../src/sofia-pro-webfont/style.css);
 body {
   margin: 0;
   padding: 0;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Sofia Pro Regular";
 }
 
 #black {
@@ -21,8 +22,7 @@ body {
 #banner td {
   font-size: 20px;
   font-weight: 500;
-  width: 15vh;
-  padding: 0 20px;
+  padding: 0 30px;
 }
 #banner i {
   font-size: 24px;
@@ -84,6 +84,11 @@ body {
   margin: 0 10px;
 }
 
+#cont {
+  display: grid;
+  place-content: center;
+}
+
 .container {
   width: 520px;
   height: 380px;
@@ -121,12 +126,18 @@ body {
   background-repeat: no-repeat;
   background-color: #F4DE4D;
 }
+.container .trending h2 {
+  color: #001AA2;
+}
 .container .buyFirst {
   background-image: url(../src/W4.png);
   background-size: auto;
   background-position: right;
   background-repeat: no-repeat;
   background-color: #E9E5E2;
+}
+.container .buyFirst h2 {
+  color: #FD2E24;
 }
 .container #up {
   margin-bottom: 15px;
@@ -195,6 +206,16 @@ body {
   background-size: auto 100%;
   background-position: center;
 }
+.containerV #v3 {
+  background-image: url(../src/image3.png);
+  background-size: auto 100%;
+  background-position: center;
+}
+.containerV #v4 {
+  background-image: url(../src/image4.png);
+  background-size: auto 100%;
+  background-position: center;
+}
 
 #help {
   margin-top: 35vh;
@@ -246,5 +267,22 @@ body {
   }
   #cont {
     padding: 20px;
+  }
+}
+@media only screen and (min-width: 1202px) and (max-width: 1402px) {
+  .container {
+    width: 38vw;
+  }
+  .containerV {
+    width: auto;
+  }
+  .containerV .left {
+    width: 15vw;
+  }
+  .containerV .right {
+    width: 15vw;
+  }
+  #banner input[type=text] {
+    width: 20%;
   }
 }/*# sourceMappingURL=style.css.map */
